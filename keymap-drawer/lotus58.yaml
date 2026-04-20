@@ -12,7 +12,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '=', s: +}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: '=', s: +}
+  - '{'
   - $$mdi:apple-keyboard-shift$$
   - A
   - {t: S, s: '$$mdi:arrow-left-bold$$'}
@@ -38,7 +38,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - '}'
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -49,10 +49,10 @@ layers:
   - {t: ']', s: '}'}
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - <
+  - '>'
   - {t: /, s: '?'}
-  - {t: \, h: '$$mdi:apple-keyboard-control$$', s: '|'}
+  - '"'
   - Gui+LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - lower
